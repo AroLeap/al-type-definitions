@@ -1,0 +1,1 @@
+export declare type MobilityExerciseKeys = 'inchWorm' | '9090' | 'reverseSnowAngel' | 'bookOpener' | 'deepSquatThoracicRotation' | 'proneScorpionKick' | 'hipRocking' | 'birdDog' | 'hipRotation' | 'supineWiper' | 'hamstringStretch' | 'flexorStretch' | 'prayerThoracicMobility' | 'scmActivation' | 'stretchHold';

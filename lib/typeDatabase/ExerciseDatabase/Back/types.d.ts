@@ -1,0 +1,1 @@
+export declare type BackExerciseKeys = 'latPulldown' | 'chinUps' | 'facePulls' | 'seatedRows' | 'bentoverRow' | 'singleArmBentoverRow' | 'deadLifts' | 'rearDeltFly' | 'straightArmPulldown' | 'superManToBackExtension' | 'deadliftRow' | 'proneAngel' | 'singleArmAssistedPullUp' | 'assistedMuscleUp' | 'closeGripLatPulldown';
