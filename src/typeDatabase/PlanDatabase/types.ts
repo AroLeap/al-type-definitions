@@ -45,7 +45,7 @@ export type DailySmartWorkoutInfoType = {
 
 export type PlanInfoType = {
     title: string,
-    coachId: CoachIdsType | null,
+    coachId: (CoachIdsType | null)[],
     addedOn: number,
     level: string,
     type: 'gainMuscle' | 'loseFat' | 'getLean'

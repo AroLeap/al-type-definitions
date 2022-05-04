@@ -38,7 +38,7 @@ export declare type DailySmartWorkoutInfoType = {
 };
 export declare type PlanInfoType = {
     title: string;
-    coachId: CoachIdsType | null;
+    coachId: (CoachIdsType | null)[];
     addedOn: number;
     level: string;
     type: 'gainMuscle' | 'loseFat' | 'getLean';
