@@ -43,5 +43,4 @@ export declare type PlanInfoType = {
     level: string;
     type: 'gainMuscle' | 'loseFat' | 'getLean';
     dailyPlanList: (DailySmartWorkoutInfoType | null)[];
-    versionNumber: number,
 };
