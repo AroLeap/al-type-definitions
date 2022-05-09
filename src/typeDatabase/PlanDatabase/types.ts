@@ -48,6 +48,7 @@ export type PlanInfoType = {
     coachId: (CoachIdsType | null)[],
     addedOn: number,
     level: string,
-    type: 'gainMuscle' | 'loseFat' | 'getLean'
-    dailyPlanList: (DailySmartWorkoutInfoType | null)[]
+    type: 'gainMuscle' | 'loseFat' | 'getLean',
+    dailyPlanList: (DailySmartWorkoutInfoType | null)[],
+    versionNumber: number,
 }
