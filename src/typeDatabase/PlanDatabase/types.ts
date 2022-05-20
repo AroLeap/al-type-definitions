@@ -51,5 +51,5 @@ export type PlanInfoType = {
     type: 'gainMuscle' | 'loseFat' | 'getLean',
     dailyPlanList: (DailySmartWorkoutInfoType | null)[],
     versionNumber: number,
-    planExpectation: string,
+    planExpectation: string | null,
 }
