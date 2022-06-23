@@ -24,7 +24,7 @@ export type DeepMuscleGroupsType = {
 }
 
 export type DeepMuscleGroupDictType = {
-    [key: string]: DeepMuscleGroupsType
+    [key: string]: DeepMuscleGroupsType | undefined
 }
 
 
@@ -62,10 +62,11 @@ export type ExerciseInfoType = {
     suggestionRef: {
         refExerciseId: null,
         equivalenceFactor: number | null
-    }
+    },
+    shootDone?: boolean,
   }
 
-export type ExerciseDictType = {[key: string]: ExerciseInfoType}
+export type ExerciseDictType = {[key: string]: ExerciseInfoType | undefined}
 
 export type ExerciseDictDataType = Record<ExerciseDictKeysType, ExerciseInfoType | undefined>
 

@@ -21,7 +21,7 @@ export declare type DeepMuscleGroupsType = {
     title: string;
 };
 export declare type DeepMuscleGroupDictType = {
-    [key: string]: DeepMuscleGroupsType;
+    [key: string]: DeepMuscleGroupsType | undefined;
 };
 export declare type ExerciseDictKeysType = BackExerciseKeys | BicepExerciseKeys | CardioExerciseKeys | ChestExerciseKeys | TricepExerciseKeys | LegExerciseKeys | ShoulderExerciseKeys | CoreExerciseKeys | MobilityExerciseKeys;
 export declare type ExerciseInfoType = {
@@ -48,8 +48,9 @@ export declare type ExerciseInfoType = {
         refExerciseId: null;
         equivalenceFactor: number | null;
     };
+    shootDone?: boolean;
 };
 export declare type ExerciseDictType = {
-    [key: string]: ExerciseInfoType;
+    [key: string]: ExerciseInfoType | undefined;
 };
 export declare type ExerciseDictDataType = Record<ExerciseDictKeysType, ExerciseInfoType | undefined>;
