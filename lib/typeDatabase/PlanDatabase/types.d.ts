@@ -35,6 +35,7 @@ export declare type DailySmartWorkoutInfoType = {
     videoUrlCDN?: string | null;
     thumbnailUrlCDN?: string | null;
     coachId: CoachIdsType | null;
+    videoTime: number | 0;
 };
 export declare type PlanInfoType = {
     title: string;
