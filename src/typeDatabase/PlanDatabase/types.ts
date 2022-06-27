@@ -32,7 +32,8 @@ export type DailySmartWorkoutInfoType = {
             isTimeBased?: boolean,
             suggestedTime?: number,
             restTime?: number,
-
+            suggestedReps?: number,
+            strengthTypeFormat?: 'strength' | 'conditioning'
         } 
         | undefined 
         | null

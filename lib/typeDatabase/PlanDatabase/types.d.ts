@@ -30,6 +30,8 @@ export declare type DailySmartWorkoutInfoType = {
         isTimeBased?: boolean;
         suggestedTime?: number;
         restTime?: number;
+        suggestedReps?: number;
+        strengthTypeFormat?: 'strength' | 'conditioning';
     } | undefined | null)[];
     videoUrl: string | null;
     videoUrlCDN?: string | null;
