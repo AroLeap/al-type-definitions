@@ -55,3 +55,15 @@ export type PlanInfoType = {
     versionNumber: number,
     planExpectation: string | null,
 }
+
+export type StandAloneWorkoutInfoType = {
+    title: string,
+    coachId: (CoachIdsType | null)[],
+    addedOn: number,
+    level: string,
+    workout: DailySmartWorkoutInfoType | null,
+    versionNumber: number,
+    workoutExpectation: string | null,
+    workoutType: "strength_conditioning" | "mobility" | "yoga"
+    videoTime: number,
+}
