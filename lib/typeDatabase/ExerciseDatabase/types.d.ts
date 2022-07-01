@@ -56,6 +56,8 @@ export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
     harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4';
     postProduction: boolean;
     shootDone: boolean;
+    flagExercise: boolean;
+    remarks: string;
 };
 export declare type ExerciseDictType = {
     [key: string]: ExerciseInfoType | undefined;
