@@ -7,6 +7,7 @@ import {LegExerciseKeys} from './Legs/types'
 import {ShoulderExerciseKeys} from './Shoulders/types'
 import {TricepExerciseKeys} from './Triceps/types'
 import {MobilityExerciseKeys} from './Mobility/types'
+import { CoachIdsType } from '../Coaches/types'
 
 
 
@@ -62,9 +63,16 @@ export type ExerciseInfoType = {
     suggestionRef: {
         refExerciseId: null,
         equivalenceFactor: number | null
-    },
-    shootDone?: boolean,
-  }
+    }
+}
+
+export type ExerciseInfoTypeEditable = ExerciseInfoType & {
+    date: Date,
+    coachId: CoachIdsType,
+    harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4',
+    postProduction: boolean,
+    shootDone: boolean
+}
 
 export type ExerciseDictType = {[key: string]: ExerciseInfoType | undefined}
 

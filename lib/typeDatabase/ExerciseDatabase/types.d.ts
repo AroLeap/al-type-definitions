@@ -7,6 +7,7 @@ import { LegExerciseKeys } from './Legs/types';
 import { ShoulderExerciseKeys } from './Shoulders/types';
 import { TricepExerciseKeys } from './Triceps/types';
 import { MobilityExerciseKeys } from './Mobility/types';
+import { CoachIdsType } from '../Coaches/types';
 export declare type MuscleGroupIDs = 'shoulders' | 'biceps' | 'back' | 'triceps' | 'core' | 'chest' | 'legs';
 export declare type MainMuscleGroupsType = {
     title: string;
@@ -48,7 +49,13 @@ export declare type ExerciseInfoType = {
         refExerciseId: null;
         equivalenceFactor: number | null;
     };
-    shootDone?: boolean;
+};
+export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
+    date: Date;
+    coachId: CoachIdsType;
+    harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4';
+    postProduction: boolean;
+    shootDone: boolean;
 };
 export declare type ExerciseDictType = {
     [key: string]: ExerciseInfoType | undefined;
