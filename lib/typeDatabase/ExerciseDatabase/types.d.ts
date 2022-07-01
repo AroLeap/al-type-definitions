@@ -57,7 +57,7 @@ export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
     postProduction: boolean;
     shootDone: boolean;
     flagExercise: boolean;
-    remarks: string;
+    remarks: string | null;
 };
 export declare type ExerciseDictType = {
     [key: string]: ExerciseInfoType | undefined;
