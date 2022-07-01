@@ -74,6 +74,8 @@ export type ExerciseInfoTypeEditable = ExerciseInfoType & {
     shootDone: boolean,
     flagExercise: boolean,
     remarks: string | null, 
+    lastEditedBy: string,
+    lastEditedOn: Date,
 }
 
 export type ExerciseDictType = {[key: string]: ExerciseInfoType | undefined}
