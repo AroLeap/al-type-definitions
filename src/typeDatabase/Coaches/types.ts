@@ -1,4 +1,4 @@
-export type CoachIdsType = 'suhail'| 'apurva'| 'swetha'| 'zohaib'
+export type CoachIdsType = 'suhail'| 'apurva'| 'swetha'| 'zuhaib'
 
 export type CoachType = {
     coachId: CoachIdsType,

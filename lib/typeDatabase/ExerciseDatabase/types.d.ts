@@ -51,7 +51,7 @@ export declare type ExerciseInfoType = {
     };
 };
 export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
-    date: string;
+    date: number;
     coachId: CoachIdsType;
     harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4';
     postProduction: boolean;
@@ -59,7 +59,7 @@ export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
     flagExercise: boolean;
     remarks: string | null;
     lastEditedBy: string;
-    lastEditedOn: string;
+    lastEditedOn: number;
 };
 export declare type ExerciseDictType = {
     [key: string]: ExerciseInfoType | undefined;

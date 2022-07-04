@@ -67,7 +67,7 @@ export type ExerciseInfoType = {
 }
 
 export type ExerciseInfoTypeEditable = ExerciseInfoType & {
-    date: string,
+    date: number,
     coachId: CoachIdsType,
     harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4',
     postProduction: boolean,
@@ -75,7 +75,7 @@ export type ExerciseInfoTypeEditable = ExerciseInfoType & {
     flagExercise: boolean,
     remarks: string | null, 
     lastEditedBy: string,
-    lastEditedOn: string,
+    lastEditedOn: number,
 }
 
 export type ExerciseDictType = {[key: string]: ExerciseInfoType | undefined}
