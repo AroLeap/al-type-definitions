@@ -53,7 +53,7 @@ export declare type ExerciseInfoType = {
 export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
     date: number;
     coachId: CoachIdsType;
-    harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4';
+    harDiskCopied: 'HD-1' | 'HD-2' | 'HD-3' | 'HD-4' | 'none';
     postProduction: boolean;
     shootDone: boolean;
     flagExercise: boolean;
