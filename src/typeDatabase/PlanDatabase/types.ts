@@ -54,6 +54,7 @@ export type PlanInfoType = {
     dailyPlanList: (DailySmartWorkoutInfoType | null)[],
     versionNumber: number,
     planExpectation: string | null,
+    updatedOn: number,
 }
 
 export type StandAloneWorkoutInfoType = {
@@ -66,4 +67,5 @@ export type StandAloneWorkoutInfoType = {
     workoutExpectation: string | null,
     workoutType: "strength_conditioning" | "mobility" | "yoga"
     videoTime: number,
+    updatedOn: number,
 }
