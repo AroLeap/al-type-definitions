@@ -68,4 +68,8 @@ export type StandAloneWorkoutInfoType = {
     workoutType: "strength_conditioning" | "mobility" | "yoga"
     videoTime: number,
     updatedOn: number,
+    cumulativeRating: number,
+    rating: number,
+    numOfSessions: number,
+    checked: boolean,
 }
