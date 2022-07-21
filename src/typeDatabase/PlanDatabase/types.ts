@@ -55,6 +55,7 @@ export type PlanInfoType = {
     versionNumber: number,
     planExpectation: string | null,
     updatedOn: number,
+    introVideoUrl?: string | null,
 }
 
 export type StandAloneWorkoutInfoType = {

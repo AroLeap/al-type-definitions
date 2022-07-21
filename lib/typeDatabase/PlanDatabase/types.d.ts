@@ -49,6 +49,7 @@ export declare type PlanInfoType = {
     versionNumber: number;
     planExpectation: string | null;
     updatedOn: number;
+    introVideoUrl?: string | null;
 };
 export declare type StandAloneWorkoutInfoType = {
     title: string;
