@@ -56,6 +56,7 @@ export type PlanInfoType = {
     planExpectation: string | null,
     updatedOn: number,
     introVideoUrl?: string | null,
+    planId: string
 }
 
 export type StandAloneWorkoutInfoType = {
@@ -73,4 +74,5 @@ export type StandAloneWorkoutInfoType = {
     rating: number,
     numOfSessions: number,
     checked: boolean,
+    workoutId: string
 }
