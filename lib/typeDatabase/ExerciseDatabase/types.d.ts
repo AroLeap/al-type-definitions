@@ -35,7 +35,8 @@ export declare type ExerciseInfoType = {
     imageUrl: string | null;
     imageUrlCDN?: string | null;
     type: 'strength' | 'cardio' | 'mobility';
-    format: 'lift' | 'bodyweight' | 'lift-bodyweight';
+    format: 'lift' | 'bodyweight' | 'lift-bodyweight' | 'free-weight';
+    movementCategory: "isolation" | "compound" | null;
     mainMuscleGroupsDict: (MainMuscleGroupsType & {
         weight: number;
     })[];
