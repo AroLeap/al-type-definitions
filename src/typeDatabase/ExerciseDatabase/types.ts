@@ -51,6 +51,7 @@ export type ExerciseInfoType = {
     videoUrlCDNForm?: string | null,
     imageUrl: string | null,
     imageUrlCDN?: string | null,
+    firebaseImageUrl?: string | null,
     type: 'strength' | 'cardio' | 'mobility',
     format: 'lift' | 'bodyweight' | 'lift-bodyweight' | 'free-weight',
     movementCategory: "isolation" | "compound" | null,
