@@ -34,7 +34,7 @@ export declare type ExerciseInfoType = {
     videoUrlCDNForm?: string | null;
     imageUrl: string | null;
     imageUrlCDN?: string | null;
-    firebaseImageUrl?: string | null;
+    firebaseStorageImgUrl?: string | null;
     type: 'strength' | 'cardio' | 'mobility';
     format: 'lift' | 'bodyweight' | 'lift-bodyweight' | 'free-weight';
     movementCategory: "isolation" | "compound" | null;
