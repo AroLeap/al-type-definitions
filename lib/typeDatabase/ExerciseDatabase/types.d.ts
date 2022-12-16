@@ -46,7 +46,7 @@ export declare type ExerciseInfoType = {
     armsOrientation: string;
     singleSided: boolean;
     alternatingMove: boolean;
-    accessories: 'Rope' | 'Barbell' | 'D-handles' | 'Ankle straps' | 'None';
+    accessories: 'Rope' | 'Barbell' | 'D-handles' | 'Ankle straps' | 'None' | 'Short Bar';
     suggestionRef: {
         refExerciseId: null;
         equivalenceFactor: number | null;
