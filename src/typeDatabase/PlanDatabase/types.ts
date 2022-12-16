@@ -43,7 +43,8 @@ export type DailySmartWorkoutInfoType = {
     thumbnailUrlCDN?: string | null 
     coachId: CoachIdsType | null,
     videoTime: number,
-    walking?: number
+    walking?: number,
+    note?: string
 }
 
 export type PlanInfoType = {
@@ -51,7 +52,7 @@ export type PlanInfoType = {
     coachId: (CoachIdsType | null)[],
     addedOn: number,
     level: string,
-    type: 'gainMuscle' | 'loseFat' | 'getLean',
+    type: 'gainMuscle' | 'loseFat' | 'getLean' | 'mobility' | 'strength_conditioning' | 'stability',
     dailyPlanList: (DailySmartWorkoutInfoType | null)[],
     versionNumber: number,
     planExpectation: string | null,

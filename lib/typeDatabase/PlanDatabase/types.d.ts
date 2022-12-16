@@ -39,13 +39,14 @@ export declare type DailySmartWorkoutInfoType = {
     coachId: CoachIdsType | null;
     videoTime: number;
     walking?: number;
+    note?: string;
 };
 export declare type PlanInfoType = {
     title: string;
     coachId: (CoachIdsType | null)[];
     addedOn: number;
     level: string;
-    type: 'gainMuscle' | 'loseFat' | 'getLean';
+    type: 'gainMuscle' | 'loseFat' | 'getLean' | 'mobility' | 'strength_conditioning' | 'stability';
     dailyPlanList: (DailySmartWorkoutInfoType | null)[];
     versionNumber: number;
     planExpectation: string | null;
