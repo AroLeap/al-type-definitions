@@ -39,7 +39,7 @@ export declare type DailySmartWorkoutInfoType = {
     coachId: CoachIdsType | null;
     videoTime: number;
     walking?: number;
-    note?: string;
+    note?: string | null;
 };
 export declare type PlanInfoType = {
     title: string;

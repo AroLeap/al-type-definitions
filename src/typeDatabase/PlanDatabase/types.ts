@@ -44,7 +44,7 @@ export type DailySmartWorkoutInfoType = {
     coachId: CoachIdsType | null,
     videoTime: number,
     walking?: number,
-    note?: string
+    note?: string | null
 }
 
 export type PlanInfoType = {
