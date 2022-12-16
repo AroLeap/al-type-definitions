@@ -27,5 +27,8 @@
   },
   "directories": {
     "lib": "lib"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.15"
   }
 }
