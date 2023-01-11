@@ -40,6 +40,7 @@ export declare type DailySmartWorkoutInfoType = {
     videoTime: number;
     walking?: number;
     note?: string | null;
+    muscleGrpArray?: string[];
 };
 export declare type PlanInfoType = {
     title: string;
