@@ -54,6 +54,7 @@ export declare type PlanInfoType = {
     updatedOn: number;
     introVideoUrl?: string | null;
     planId: string;
+    shootDone?: boolean;
 };
 export declare type StandAloneWorkoutInfoType = {
     title: string;

@@ -59,7 +59,8 @@ export type PlanInfoType = {
     planExpectation: string | null,
     updatedOn: number,
     introVideoUrl?: string | null,
-    planId: string
+    planId: string,
+    shootDone?: boolean,
 }
 
 export type StandAloneWorkoutInfoType = {
