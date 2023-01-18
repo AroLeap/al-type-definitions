@@ -41,6 +41,7 @@ export declare type DailySmartWorkoutInfoType = {
     walking?: number;
     note?: string | null;
     muscleGrpArray?: string[];
+    shootDone?: boolean;
 };
 export declare type PlanInfoType = {
     title: string;
@@ -54,7 +55,6 @@ export declare type PlanInfoType = {
     updatedOn: number;
     introVideoUrl?: string | null;
     planId: string;
-    shootDone?: boolean;
 };
 export declare type StandAloneWorkoutInfoType = {
     title: string;
