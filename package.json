@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AroLeap/al-type-library"
+    "url": "git+https://github.com/AroLeap/al-type-library.git"
   },
   "keywords": [],
   "author": "",
