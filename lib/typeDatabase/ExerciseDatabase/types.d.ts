@@ -63,7 +63,13 @@ export declare type ExerciseInfoTypeEditable = ExerciseInfoType & {
     lastEditedBy: string;
     lastEditedOn: number;
 };
+export declare type UserAddedExerciseInfoType = ExerciseInfoType & {
+    addedByUser: boolean | null;
+};
 export declare type ExerciseDictType = {
     [key: string]: ExerciseInfoType | undefined;
+};
+export declare type UserAddedExerciseDictType = {
+    [key: string]: UserAddedExerciseInfoType | undefined;
 };
 export declare type ExerciseDictDataType = Record<ExerciseDictKeysType, ExerciseInfoType | undefined>;
