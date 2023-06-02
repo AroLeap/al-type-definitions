@@ -65,7 +65,7 @@ export type ExerciseInfoType = {
     suggestionRef: {
         refExerciseId: null,
         equivalenceFactor: number | null
-    }
+    },
 }
 
 export type ExerciseInfoTypeEditable = ExerciseInfoType & {
@@ -80,7 +80,13 @@ export type ExerciseInfoTypeEditable = ExerciseInfoType & {
     lastEditedOn: number,
 }
 
+export type UserAddedExerciseInfoType = ExerciseInfoType & {
+    addedByUser: boolean | null,
+}
+
 export type ExerciseDictType = {[key: string]: ExerciseInfoType | undefined}
+
+export type UserAddedExerciseDictType = {[key: string]: UserAddedExerciseInfoType | undefined}
 
 export type ExerciseDictDataType = Record<ExerciseDictKeysType, ExerciseInfoType | undefined>
 
